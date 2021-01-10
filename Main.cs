@@ -81,8 +81,6 @@ namespace RocketModLoader
                             catch (WebException webEx)
                             {
                                 Console.WriteLine("[RocketModLoader] >> Lisans kodunuz hatali!", Console.ForegroundColor = ConsoleColor.Yellow);
-                                //Yanlış bir lisansta işlemleri yapmaya devam eder
-                                return;
                             }
                         }
                     }
