@@ -44,9 +44,7 @@ namespace RocketModLoader
                 
                 //Eğer sunucu ip adresi blacklist de ise
                 if (blacklist.Contains(ServerIP()))
-                {
                     Console.WriteLine("[RocketModLoader] >> IP Adresiniz blacklist'de, lutfen yetkililer ile gorusun!", Console.ForegroundColor = ConsoleColor.Yellow);
-                }
                 
                 //Değilse
                 else
@@ -86,9 +84,7 @@ namespace RocketModLoader
                     }
                     //Eğer whitelist de yoksa
                     else 
-                    {
                         Console.WriteLine("[RocketModLoader] >> Whitelist de edilsiniz!", Console.ForegroundColor = ConsoleColor.Yellow);
-                    }
                 }
 
             }
